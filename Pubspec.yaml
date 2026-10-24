@@ -1,0 +1,22 @@
+name: kenya_gem_scanner
+description: Kenya Gem Scanner for miners
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  tflite_flutter: ^0.10.4
+  image: ^4.1.3
+  geolocator: ^10.1.0
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
